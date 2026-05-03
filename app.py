@@ -8,7 +8,7 @@ def home():
 
 @app.route("/test")
 def test():
-    return "Auto Deploy Working 🚀🔥"
+    return "CI/CD Test Success 🚀🔥"
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000)
